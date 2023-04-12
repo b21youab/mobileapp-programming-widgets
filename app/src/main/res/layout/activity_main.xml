@@ -12,6 +12,17 @@
         android:layout_height="wrap_content"
         android:minHeight="48dp"
         android:text="hejsan" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Click Me" />
+
+
+
+
 </LinearLayout>
 
 
