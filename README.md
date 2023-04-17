@@ -3,7 +3,23 @@
 
 **Skriv din rapport här!**
 
-_Du kan ta bort all text som finns sedan tidigare_.
+Valde att implementera en linearlayout istället för constraintLayout.
+Tre widgets har lagts till, ImageView, Button och editText.
+
+<EditText
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+*************************************
+Valet blev linearlayout istället för constraintlayout. 
+Den röda tråden i de flesta widgets har varit  "match_parent" och wrap_content"
+Wrap-content menas med att komponenten i fråga enbart efterfrågat att vara tillräckligt stor för sitt innehåll.
+Match-Parent menas med att att komponent i fråga ärver storlek från förälder-komponent. 
+ En bild har även tillagts för att visa designfliken, här har sampel mellan design och kodskrivandet uppmärksammats. 
+Även dp har använts genom diverse widgets i syfte att skapa storlek i element. Viktigt att notera att DP inte bör vara hårdkodat. 
+Layoutgravity har använts för att centrera bilden. 
+```android:layout_gravity="center"
+app:srcCompat="@drawable/bigmac" />
+```
 
 ## Följande grundsyn gäller dugga-svar:
 
@@ -15,7 +31,7 @@ _Du kan ta bort all text som finns sedan tidigare_.
 
 Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
 
-```
+
 function errorCallback(error) {
     switch(error.code) {
         case error.PERMISSION_DENIED:

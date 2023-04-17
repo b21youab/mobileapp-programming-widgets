@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|fill_vertical"
-        android:text="Button" />
+        android:text="Press me" />
 </LinearLayout>
 
 
