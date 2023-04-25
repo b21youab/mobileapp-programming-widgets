@@ -45,6 +45,7 @@ function errorCallback(error) {
             break;
     }
 }
+![](Screenshot_20230425_164109.png)
 ```
 
 Bilder läggs i samma mapp som markdown-filen.
